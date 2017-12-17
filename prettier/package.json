@@ -1,0 +1,27 @@
+{
+  "name": "prettier-vue",
+  "version": "1.1.2",
+  "scripts": {
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "format": "prettier --write './**/*.js'"
+  },
+  "bin": {
+    "prettier-vue": "./index.js"
+  },
+  "dependencies": {
+    "findit": "^2.0.0",
+    "html": "^1.0.0",
+    "jest": "^21.2.1",
+    "minimist": "^1.2.0",
+    "prettier": "^1.9.0",
+    "pretty": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermelimak/prettier-vue.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^8.2.0"
+  }
+}
